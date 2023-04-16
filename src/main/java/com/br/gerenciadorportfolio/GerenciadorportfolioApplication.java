@@ -1,4 +1,4 @@
-package com.gerenciadorportfolio.gerenciadorportfolio;
+package com.br.gerenciadorportfolio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
