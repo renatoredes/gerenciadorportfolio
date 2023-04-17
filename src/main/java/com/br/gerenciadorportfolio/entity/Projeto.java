@@ -1,5 +1,6 @@
 package com.br.gerenciadorportfolio.entity;
 
+import com.br.gerenciadorportfolio.entity.enums.ClassificacaoRisco;
 import com.br.gerenciadorportfolio.entity.enums.StatusProjeto;
 import jakarta.persistence.*;
 
@@ -20,15 +21,18 @@ public class Projeto implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private String dataInicio;
     @ManyToOne
     @JoinColumn(name = "gerente_id")
     private Gerente gerenteResponsavel;
+    private String dataInicio;
     private String previsaoTermino;
     private String dataRealTermino;
     private BigDecimal orcamentoTotal;
     private String descricao;
     @Enumerated(EnumType.STRING)
     private StatusProjeto status;
+
+    @Enumerated(EnumType.STRING)
+    private ClassificacaoRisco classificacaoRisco;
 
 }
