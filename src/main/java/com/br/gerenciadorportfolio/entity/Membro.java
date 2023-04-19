@@ -1,25 +1,25 @@
 package com.br.gerenciadorportfolio.entity;
 
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
 public class Membro  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
     private Long id;
 
     private String nome;
 
     private String atribuicao;
 
+
     @ManyToOne
     @JoinColumn(name = "projeto_id", nullable = false)
+    @JsonIgnore
     private Projeto projeto;
 
     public Membro() {

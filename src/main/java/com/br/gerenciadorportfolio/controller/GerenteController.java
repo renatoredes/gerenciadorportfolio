@@ -5,6 +5,7 @@ import com.br.gerenciadorportfolio.service.GerenteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,9 +23,11 @@ public class GerenteController {
         return ResponseEntity.status(HttpStatus.CREATED).body(novoGerente);
     }
 
-    @GetMapping
-    public List<Gerente> listar() {
-        return gerenteService.listarGerentes();
+    @GetMapping("/gerente")
+    public String listar(Model m) {
+
+        m.addAttribute("gerente", gerenteService.listarGerentes());
+        return "ListarGerentes";
     }
 
     @GetMapping("/{id}")
