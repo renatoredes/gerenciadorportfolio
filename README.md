@@ -39,7 +39,7 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 https://github.com/renatoredes/gerenciadorportfolio/tree/main/collection
 
 
-### Detalhar (Projeto) [GET /produtos/{codigo}](http://localhost:8080/projetos)]
+### Detalhar (Projeto) [GET /produtoss]  http://localhost:8080/projetos
 
 
   
