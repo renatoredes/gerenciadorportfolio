@@ -29,7 +29,9 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 + Response 201 Created
  
  + Body
-  {
-    "id": 1,
-    "nome": "Renato"
-  }
+      
+      {
+        "id": 1,
+        "nome": "Renato"
+      }
+  
