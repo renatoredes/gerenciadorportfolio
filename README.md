@@ -28,10 +28,7 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 
 + Response 201 Created
  
- * Body
-      
-      {
-        "id": 1,
-        "nome": "Renato"
-      }
+![image](https://user-images.githubusercontent.com/18330802/233752886-c4541ca2-ad8c-4a95-8fbf-fbdca1da60bd.png)
+
+
   
