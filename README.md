@@ -12,4 +12,4 @@ Recursos disponíveis na API:
 
 
 # Melhorias e cosumos dos serviços
-Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde consumimos a api O[GerenciadorPotolio] (https://github.com/renatoredes/gerenciadorportfoliomvc). e criamos uma implementação com MVC e interfaces graficas.
+Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde consumimos a api O [GerenciadorPotolio] 
