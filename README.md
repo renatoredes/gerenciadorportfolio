@@ -39,7 +39,26 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 https://github.com/renatoredes/gerenciadorportfolio/tree/main/collection
 
 
-### Detalhar (Projeto) [GET /produtoss]  http://localhost:8080/projetos
+* Detalhar (Projeto) [GET /produtoss]  http://localhost:8080/projetos
 
++ Response 200 (application/json)
 
+[
+    {
+        "id": 1,
+        "nome": "Projeto y",
+        "gerenteResponsavel": {
+            "id": 1,
+            "nome": "Renato"
+        },
+        "dataInicio": "2022-01-01",
+        "previsaoTermino": null,
+        "dataRealTermino": null,
+        "orcamentoTotal": 1000.00,
+        "descricao": "Descrição do projeto X",
+        "status": "EM_ANALISE",
+        "classificacaoRisco": "BAIXO_RISCO",
+        "membros": []
+    }
+]
   
