@@ -16,3 +16,18 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 * [**Customização Sistema MVC com interfaces graficas**] 
 [MVC Customização](https://github.com/renatoredes/gerenciadorportfoliomvc).
 
+### Cadastrar novo Gerênte para um projeto http://localhost:8080/gerentes
+
++ Body
+  
+  {
+   
+    "nome": "Renato"
+    
+  }
+ + Response 201 Created
+ + Body
+  {
+    "id": 1,
+    "nome": "Renato"
+  }
