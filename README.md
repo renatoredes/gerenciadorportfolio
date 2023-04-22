@@ -41,24 +41,5 @@ https://github.com/renatoredes/gerenciadorportfolio/tree/main/collection
 
 * Detalhar (Projeto) [GET /produtoss]  http://localhost:8080/projetos
 
-+ Response 200 (application/json)
+![image](https://user-images.githubusercontent.com/18330802/233753376-6fd562c7-bf09-4926-8026-73d0490b9b4b.png)
 
-[
-    {
-        "id": 1,
-        "nome": "Projeto y",
-        "gerenteResponsavel": {
-            "id": 1,
-            "nome": "Renato"
-        },
-        "dataInicio": "2022-01-01",
-        "previsaoTermino": null,
-        "dataRealTermino": null,
-        "orcamentoTotal": 1000.00,
-        "descricao": "Descrição do projeto X",
-        "status": "EM_ANALISE",
-        "classificacaoRisco": "BAIXO_RISCO",
-        "membros": []
-    }
-]
-  
