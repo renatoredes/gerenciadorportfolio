@@ -31,4 +31,12 @@ Você pode utilizar os recursos de diversas mandeiras um exemplo é esse onde co
 ![image](https://user-images.githubusercontent.com/18330802/233752886-c4541ca2-ad8c-4a95-8fbf-fbdca1da60bd.png)
 
 
+### Postman Projetos
+
+![image](https://user-images.githubusercontent.com/18330802/233753146-50ca1d1e-f1c1-4561-a940-6e078cece2aa.png)
+
+* Collection para serem importadas e utilizadas no postman
+https://github.com/renatoredes/gerenciadorportfolio/tree/main/collection
+
+
   
